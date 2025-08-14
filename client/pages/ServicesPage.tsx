@@ -9,7 +9,7 @@ import {
   CheckCircle,
   ArrowRight,
   Palette,
-  Vacuum,
+  Home,
   Droplets,
   Star
 } from "lucide-react";
