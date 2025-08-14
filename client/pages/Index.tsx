@@ -251,9 +251,11 @@ export default function Index() {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary">
-              <PhoneCall className="mr-2 w-5 h-5" />
-              Call Now
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary" asChild>
+              <a href="tel:+1234567890">
+                <PhoneCall className="mr-2 w-5 h-5" />
+                Call (123) 456-7890
+              </a>
             </Button>
           </div>
         </div>
