@@ -56,7 +56,7 @@ export default function ServicesPage() {
       price: "From $120",
       duration: "2-3 hours",
       description: "Deep cleaning and conditioning for your vehicle's interior.",
-      icon: Vacuum,
+      icon: Home,
       features: [
         "Steam cleaning of all surfaces",
         "Leather conditioning and protection",
