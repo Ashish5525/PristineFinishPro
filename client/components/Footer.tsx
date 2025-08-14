@@ -1,4 +1,12 @@
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  Facebook,
+  Instagram,
+  Twitter,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Footer() {
@@ -15,16 +23,26 @@ export function Footer() {
               <h3 className="text-lg font-bold">PristineFinishPros</h3>
             </div>
             <p className="text-gray-400 mb-4">
-              Professional car detailing services that restore your vehicle's shine and protect its value.
+              Professional car detailing services that restore your vehicle's
+              shine and protect its value.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -34,11 +52,46 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Exterior Detailing</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Interior Detailing</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Paint Protection</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Ceramic Coating</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Paint Correction</Link></li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Exterior Detailing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Interior Detailing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Paint Protection
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Ceramic Coating
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Paint Correction
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -52,11 +105,17 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gray-400 flex-shrink-0" />
-                <span className="text-gray-400">info@pristinefinishpros.com</span>
+                <span className="text-gray-400">
+                  info@pristinefinishpros.com
+                </span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-gray-400 flex-shrink-0 mt-1" />
-                <span className="text-gray-400">123 Main Street<br />Your City, ST 12345</span>
+                <span className="text-gray-400">
+                  123 Main Street
+                  <br />
+                  Your City, ST 12345
+                </span>
               </div>
             </div>
           </div>
@@ -83,10 +142,16 @@ export function Footer() {
               © 2024 PristineFinishPros. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link
+                to="/privacy"
+                className="text-gray-400 hover:text-white text-sm transition-colors"
+              >
                 Privacy Policy
               </Link>
-              <Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link
+                to="/terms"
+                className="text-gray-400 hover:text-white text-sm transition-colors"
+              >
                 Terms of Service
               </Link>
             </div>

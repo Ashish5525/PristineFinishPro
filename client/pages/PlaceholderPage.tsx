@@ -15,7 +15,8 @@ export function PlaceholderPage({ title, description }: PlaceholderPageProps) {
         <h1 className="text-3xl font-bold text-gray-900 mb-4">{title}</h1>
         <p className="text-gray-600 mb-8">{description}</p>
         <p className="text-sm text-gray-500 mb-6">
-          This page is coming soon! Continue prompting to have us build out this section.
+          This page is coming soon! Continue prompting to have us build out this
+          section.
         </p>
         <Button asChild variant="outline">
           <Link to="/">

@@ -26,8 +26,12 @@ export function Header() {
               <span className="text-white font-bold text-lg">P</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">PristineFinishPros</h1>
-              <p className="text-xs text-gray-600">Professional Car Detailing</p>
+              <h1 className="text-xl font-bold text-gray-900">
+                PristineFinishPros
+              </h1>
+              <p className="text-xs text-gray-600">
+                Professional Car Detailing
+              </p>
             </div>
           </Link>
 
