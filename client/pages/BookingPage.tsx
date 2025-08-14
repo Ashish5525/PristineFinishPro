@@ -131,6 +131,10 @@ export default function BookingPage() {
                             onSelect={setSelectedDate}
                             disabled={(date) => date < new Date() || date.getDay() === 0}
                             initialFocus
+                            weekStartsOn={0}
+                            formatters={{
+                              formatWeekdayName: (date) => format(date, "E"),
+                            }}
                           />
                         </PopoverContent>
                       </Popover>
